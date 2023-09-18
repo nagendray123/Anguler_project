@@ -1,0 +1,118 @@
+<ion-header [translucent]="true">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ml-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/contact']">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/about']">About</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/register']">Register</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/login']">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search"> 
+              <ion-searchbar></ion-searchbar>
+          <ion-avatar>
+            <img alt="Silhouette of a person's head" src="../../assets/items/my_image.jpg" />
+          </ion-avatar>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <div class="register">
+    <h3>Registration Page</h3>
+    <ion-item>
+      <ion-label position="floating">Fist Name</ion-label>
+      <ion-input name="fistName" type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Last Name</ion-label>
+      <ion-input name="lastName" type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Age</ion-label>
+      <ion-input  name="age" type="integer"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Date of Birth</ion-label>
+      <ion-input  name="dateofbirth" type="integer"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Contact Number</ion-label>
+      <ion-input  name="contactNumber" type="integer"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input  name="email" type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Address</ion-label>
+      <ion-input  name="address" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-input  name="password" type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Conform Password</ion-label>
+      <ion-input  name="conformpassword" type="password"></ion-input>
+    </ion-item>
+    <br>
+    <ion-button>Register</ion-button>
+  </div>
+  <br>
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1"role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <a class="btn btn-outline-light btn-floating m-1" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+       
+        <a class="btn btn-outline-light btn-floating m-1" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+      
+        <a class="btn btn-outline-light btn-floating m-1" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+       
+        <a class="btn btn-outline-light btn-floating m-1" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+       
+        <a class="btn btn-outline-light btn-floating m-1" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+    </div>
+    
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright: Nagendra
+    </div>
+  </footer>
+</ion-content>

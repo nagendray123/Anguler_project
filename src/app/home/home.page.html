@@ -1,20 +1,194 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ml-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/contact']">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/about']">About</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/register']">Register</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['/login']">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search"> 
+              <ion-searchbar></ion-searchbar>
+          <ion-avatar>
+            <img alt="Silhouette of a person's head" src="../../assets/items/my_image.jpg" />
+          </ion-avatar>
+
+        </form>
+      </div>
+    </div>
+  </nav>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <div class="containers">
+    <div class="card-body">     
+    </div>
+    <br />
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <div class="row row-cols-1 row-cols-2 row-cols-md-4 g-4 ">
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/banana.jpg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Banana</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/juice.jpeg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Juice</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/papaya.jpeg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Egg</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/bread.jpg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Bread</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/lemon.jpg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Lemon</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/tamato.jpg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Tamato</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/mix.jpg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Dry-Fruit</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>  
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/orange.jpg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Orange</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/orange.jpg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Orange</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/mango.jpg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Mango</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/Apple.jpg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Apple</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="../../assets/items/lichi.jpg" class="card-img-top">
+          <div class="card-body4">
+            <h5 class="card-title">Lichi</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <br>
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1"role="button">
+          <i class="fab fa-facebook-f"></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" role="button">
+          <i class="fab fa-twitter"></i>
+        </a>
+  
+       
+        <a class="btn btn-outline-light btn-floating m-1" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+      
+        <a class="btn btn-outline-light btn-floating m-1" role="button">
+          <i class="fab fa-instagram"></i></a>
+  
+       
+        <a class="btn btn-outline-light btn-floating m-1" role="button">
+          <i class="fab fa-linkedin-in"></i></a>
+  
+       
+        <a class="btn btn-outline-light btn-floating m-1" role="button">
+          <i class="fab fa-github"></i></a>
+      </section>
+    </div>
+    
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright: Nagendra
+    </div>
+  </footer>
 </ion-content>
+
+
+
+
+
+
+ 
